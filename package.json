@@ -1,0 +1,19 @@
+{
+  "name": "minimal-example-for-babel-plugin-webpack-loaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=EXAMPLE babel-node ./example.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-plugin-webpack-loaders": "^0.0.6",
+    "css-loader": "^0.23.1",
+    "postcss-loader": "^0.8.0",
+    "style-loader": "^0.13.0"
+  }
+}
