@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=EXAMPLE babel-node ./example.js"
+    "start": "BABEL_DISABLE_CACHE=1 NODE_ENV=EXAMPLE babel-node ./example.js"
   },
   "author": "",
   "license": "ISC",
