@@ -7,10 +7,11 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.css$/,
+        test: /\.s*css$/,
         loaders: [
           'style-loader',
           'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]--[hash:base64:5]',
+          'sass-loader',
           'postcss-loader',
         ],
       },
